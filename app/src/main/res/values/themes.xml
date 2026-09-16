@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AzkarApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#0F5132</item>
+        <item name="colorPrimaryVariant">#0A3622</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#FFC107</item>
+        <item name="colorSecondaryVariant">#D39E00</item>
+        <item name="colorOnSecondary">#000000</item>
+        <item name="android:statusBarColor">#0A3622</item>
+        <item name="android:windowBackground">#061A12</item>
+    </style>
+</resources>

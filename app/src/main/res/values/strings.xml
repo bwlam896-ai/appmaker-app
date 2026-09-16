@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تطبيق الأذكار</string>
+    <string name="tab_morning">أذكار الصباح</string>
+    <string name="tab_evening">أذكار المساء</string>
+    <string name="tab_post_prayer">بعد الصلاة</string>
+    <string name="tab_tasbeeh">السبحة</string>
+    <string name="subtle_title">حصن المسلم اليومي</string>
+    <string name="reset_all">إعادة ضبط</string>
+    <string name="total_progress">الإنجاز الإجمالي:</string>
+    <string name="tasbeeh_prompt">اضغط للتسبيح</string>
+    <string name="tasbeeh_title">سُبْحَانَ اللَّهِ وَبِحَمْدِهِ ، سُبْحَانَ اللَّهِ الْعَظِيمِ</string>
+    <string name="completed">تم الإنجاز</string>
+</resources>

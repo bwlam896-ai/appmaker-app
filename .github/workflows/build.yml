@@ -90,6 +90,9 @@ jobs:
                   f.write(final_content)
           PYEOF
 
+          # تصحيح مسار الأيقونة في Manifest إلى المجلد الحقيقي بدلاً من الأيقونة الافتراضية
+          sed -i 's|@android:drawable/sym_def_app_icon|@mipmap/ic_launcher|g' app/src/main/AndroidManifest.xml || true
+
           # تصحيح الـ XML وحذف خاصية android:dir الخاطئة وتصحيح القيود
           find app/src/main/res/layout -name "*.xml" | while read xmlFile; do
             sed -i 's/android:dir="[^"]*"//g' "$xmlFile" || true
